@@ -13,3 +13,10 @@ To start a development server on http://localhost use:
 To generate the static site assets into the site directory use:
 
 `docker run -it --rm -v ${PWD}:/docs --name mkdocs-build teamdeeson/mkdocs:latest build --clean`
+
+# Versions
+
+For the latest version use the image `teamdeeson/mkdocs:latest` - otherwise the following are available
+
+* `teamdeeson/mkdocs:0.17.1`
+* `teamdeeson/mkdocs:0.15.3`
